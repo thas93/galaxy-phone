@@ -17,7 +17,7 @@ const mobile = () => {
         className="text-7xl font-black text-[#34529d]/60 tracking-[0.3rem]"
         style={{ WebkitTextStroke: "2px #ffffff" }}
       >
-        - TELEPHONE -
+        - TELEPHONES -
       </h1>
 
       <section className="flex flex-row flex-wrap justify-center  gap-8 text-[#56575a]">
