@@ -2,7 +2,7 @@
 
 // import Image from "next/image";
 
-const mobile = () => {
+const Mobile = () => {
 
 
 
@@ -141,4 +141,4 @@ const mobile = () => {
   );
 };
 
-export default mobile;
+export default Mobile;

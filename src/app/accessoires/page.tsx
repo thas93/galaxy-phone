@@ -1,6 +1,6 @@
 
 
-const accessoires = () => {
+const Accessoires = () => {
   return (
       <div className="flex flex-col justify-between items-center content-around w-full h-full">
       <h1
@@ -13,4 +13,4 @@ const accessoires = () => {
   )
 }
 
-export default accessoires
+export default Accessoires

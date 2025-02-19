@@ -5,7 +5,7 @@ import React from "react";
 const links: { name: string; path: string }[] = [
   {
     name: "home",
-    path: "/home",
+    path: "/",
   },
   {
     name: "mobile",

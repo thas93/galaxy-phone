@@ -6,7 +6,7 @@ import Nav from "@components/Nav";
 import React from "react";
 const Navbar = () => {
   return (
-     <div className="py-8 xl:py-4  text-white px-8">
+     <div className="py-8 xl:py-4  text-black px-8">
       <div className=" mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex justify-center items-center gap-3 ">
@@ -14,8 +14,8 @@ const Navbar = () => {
           <div className="flex flex-col items-center">
             <div className="text-6xl font-fontrg flex flex-col items-center">
               <div className="flex">
-                 <p className="text-white">G</p> 
-                  <p className="text-white">P</p> 
+                 <p className="text-black">G</p> 
+                  <p className="text-black">P</p> 
               </div>
           
                 <div className="flex text-2xl  tracking-[0.3rem]">

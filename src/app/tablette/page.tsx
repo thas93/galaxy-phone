@@ -1,7 +1,7 @@
 "use client";
 
 
-const tablette = () => {
+const Tablette = () => {
 
 
   return (
@@ -10,10 +10,10 @@ const tablette = () => {
         className="text-7xl font-black text-[#34529d]/60  tracking-[0.3rem]"
         style={{ WebkitTextStroke: "2px #56575a" }}
       >
-        - TABLETTE -
+        - TABLETTES -
       </h1>
     </div>
   )
 }
 
-export default tablette
+export default Tablette
