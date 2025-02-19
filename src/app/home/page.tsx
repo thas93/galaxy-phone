@@ -1,14 +1,10 @@
 "use client";
-import { useEffect } from "react";
-import { useBackground } from "@/context/BackgroundContext";
+
+
 import Image from "next/image";
 
 const home = () => {
-  const { setBgClass } = useBackground();
-
-  useEffect(() => {
-    setBgClass("bg-gradient-to-r from-slate-900 to-slate-700 bg-cover bg-center");
-  }, [setBgClass]);
+ 
   return (
     <div className="flex flex-col justify-between  w-full">
       <div className="flex flex-col justify-between w-full font-extrabold text-white tracking-[0.6rem] text-8xl p-10">

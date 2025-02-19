@@ -1,15 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect } from "react";
-import { useBackground } from "@/context/BackgroundContext";
+// import Image from "next/image";
+
 const mobile = () => {
 
-   const { setBgClass } = useBackground();
 
-  useEffect(() => {
-    setBgClass("bg-[url('/images/bg-10.jpg')] bg-cover bg-center");
-  }, [setBgClass]);
 
   return (
     <div className="flex flex-col justify-evenly items-center content-around w-full h-full ">

@@ -1,13 +1,8 @@
 "use client";
-import { useEffect } from "react";
-import { useBackground } from "@/context/BackgroundContext";
+
 
 const tablette = () => {
-  const { setBgClass } = useBackground();
 
-  useEffect(() => {
-    setBgClass("bg-[url('/images/bg-tab.jpg')] bg-cover bg-center");
-  }, [setBgClass]);
 
   return (
     <div className="flex flex-col justify-between items-center content-around w-full h-full">
