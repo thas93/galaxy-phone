@@ -19,8 +19,8 @@ const Navbar = () => {
               </div>
           
                 <div className="flex text-2xl  tracking-[0.3rem]">
-                  <p className="text-white">Galaxy</p>
-                  <p className="text-white">Phone</p>
+                  <p className="text-black">Galaxy</p>
+                  <p className="text-black">Phone</p>
                 </div>               
             </div>
            
