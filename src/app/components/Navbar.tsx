@@ -58,7 +58,7 @@ const Navbar = () => {
           initial={{ opacity: 0, x: "100%" }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
-          className="fixed top-0 left-0 w-screen h-screen bg-white flex flex-col items-center justify-center z-40"
+          className="fixed top-0 left-0 w-screen h-screen bg-teal-700 flex flex-col items-center justify-around z-40"
         >
           {/* Close Button Inside the Menu */}
           <button
@@ -68,6 +68,11 @@ const Navbar = () => {
           >
             <X size={30} />
           </button>
+
+           <div className="text-2xl flex border-2 p-4 border-blue-300 rounded-full items-center font-bold font-fontrg">
+            <p className="text-5xl">G</p>
+            <p className="text-5xl">P</p>
+          </div>
 
           {/* Navigation Links (Vertical Alignment) */}
           <nav className="flex flex-col items-center gap-6">
@@ -82,6 +87,8 @@ const Navbar = () => {
               </Link>
             ))}
           </nav>
+
+
         </motion.div>
       )}
     </header>
