@@ -19,7 +19,10 @@ const Navbar = () => {
     <header className="p-4 border-b-2  text-black bg-white shadow-md relative">
       <div className="mx-auto flex justify-between items-center w-full ">
         {/* Logo */}
-        <Link href="/" className="text-2xl flex flex-col items-center font-bold font-fontrg">
+        <Link
+          href="/"
+          className="text-2xl flex flex-col items-center font-bold font-fontrg"
+        >
           <div className="flex">
             <p className="text-5xl">G</p>
             <p className="text-5xl">P</p>
@@ -58,7 +61,7 @@ const Navbar = () => {
           initial={{ opacity: 0, x: "100%" }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
-          className="fixed top-0 left-0 w-screen h-screen bg-teal-700 flex flex-col items-center justify-around z-40"
+          className="fixed top-0 left-0 w-screen p-2 h-screen bg-[url('/images/bg-mobile.jpg')] bg-cover bg-center flex flex-col items-center justify-around z-40"
         >
           {/* Close Button Inside the Menu */}
           <button
@@ -66,29 +69,30 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             aria-label="Close Menu"
           >
-            <X size={30} />
+            <X size={30} color="white" />
           </button>
 
-           <div className="text-2xl flex border-2 p-4 border-blue-300 rounded-full items-center font-bold font-fontrg">
-            <p className="text-5xl">G</p>
-            <p className="text-5xl">P</p>
+          <div className="text-2xl text-white w-full flex border-3 p-4 border-white  shadow-lg rounded-full flex-col items-center font-bold font-fontrg">
+            <div className="flex">
+              <p className="text-5xl">G</p>
+              <p className="text-5xl">P</p>
+            </div>
+            <p className="text-lg">Galaxy Phone</p>
           </div>
 
           {/* Navigation Links (Vertical Alignment) */}
-          <nav className="flex flex-col items-center gap-6">
+          <nav className="flex flex-col items-center gap-6 text-white">
             {links.map((link) => (
               <Link
                 key={link.name}
                 href={link.path}
-                className="text-3xl font-bold text-black hover:text-blue-500 transition-all"
+                className="text-3xl font-bold  hover:text-blue-500 transition-all"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
               </Link>
             ))}
           </nav>
-
-
         </motion.div>
       )}
     </header>
