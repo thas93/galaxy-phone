@@ -68,7 +68,10 @@ a {
           animation: marquee 20s linear infinite;
         }
 
-
+.text-outline {
+  -webkit-text-stroke: 2px black; /* Épaisseur et couleur */
+  color: transparent; /* Cache la couleur du texte */
+}
 
 
 

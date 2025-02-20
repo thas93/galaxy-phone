@@ -1,26 +1,20 @@
-
-
 // export default function Home() {
 //   return (
 //     <div>
 //       <p className="text-5xl text-red-900 font-bold">GALAXY-PHONE</p>
 //     </div>
-     
+
 //   );
 // }
 
 "use client";
 import Image from "next/image";
 const Home = () => {
- 
   return (
     <div className="flex flex-col justify-between  w-full">
-      <div className="flex flex-col justify-between w-full font-extrabold text-zinc-700 tracking-[0.6rem] text-8xl p-10">
+      <div className="flex flex-col justify-between w-full font-extrabold text-zinc-700 tracking-[0.6rem] text-3xl md:text-5xl xl:text-7xl p-10">
         <p>Réparer</p>
-        <p
-          className="text-transparent"
-          style={{ WebkitTextStroke: "2.5px #000000" }}
-        >
+        <p className="text-6xl font-bold text-outline ">
           Protéger
         </p>
         <p>Reconditionnés</p>
