@@ -56,7 +56,7 @@ a {
 }
 
 
- @keyframes marquee {
+ @keyframes marque {
           0% {
             transform: translateX(0);
           }
@@ -64,8 +64,8 @@ a {
             transform: translateX(-50%);
           }
         }
-        .animate-marquee {
-          animation: marquee 20s linear infinite;
+        .animate-marque {
+          animation: marque 20s linear infinite;
         }
 
 .text-outline {

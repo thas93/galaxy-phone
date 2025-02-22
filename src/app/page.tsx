@@ -1,38 +1,19 @@
-// export default function Home() {
-//   return (
-//     <div>
-//       <p className="text-5xl text-red-900 font-bold">GALAXY-PHONE</p>
-//     </div>
-
-//   );
-// }
-
 "use client";
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className="flex flex-col justify-between  w-full">
-      <div className="flex flex-col justify-between w-full font-extrabold text-zinc-700 tracking-[0.6rem] text-3xl md:text-5xl xl:text-7xl p-10">
-        <p>Réparer</p>
-        <p className="text-6xl font-bold text-outline ">
-          Protéger
-        </p>
-        <p>Reconditionnés</p>
+    <div className="flex flex-col justify-between w-full h-full ">
+      <div className="flex flex-col justify-center md:items-start xl:flex-col items-center w-full font-extrabold text-zinc-700 text-5xl/30 md:text-5xl xl:text-7xl p-10  h-full">
+        <p className="text-[#FFD500]">Réparer</p>
+        <p className="text-white">Protéger</p>
+        <p className="text-[#FFD500]">Reconditionnés</p>
       </div>
       {/* Conteneur du carrousel */}
-      <div className="relative w-screen bg-blue-200/20 overflow-hidden mt-10">
-        <div className="flex w-[200%] animate-marquee">
+      <div className="relative w-screen h-[10vw] bg-blue-200/20 overflow-hidden ">
+        <div className="flex w-[200%] animate-marque">
           {[...Array(2)].map((_, i) => (
-            <div key={i} className="flex">
-              <div className="relative w-[10vw] h-[5vw] mx-4">
-                <Image
-                  src="/images/apple.png"
-                  alt="Apple"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+            <div key={i} className="flex gap-10">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/samsung.png"
                   alt="Samsung"
@@ -40,7 +21,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/nokia.png"
                   alt="Nokia"
@@ -48,15 +29,8 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
-                <Image
-                  src="/images/mi.png"
-                  alt="Mi"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/huawei.png"
                   alt="Huawei"
@@ -64,7 +38,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/redmi.png"
                   alt="Redmi"
@@ -72,7 +46,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/asus.png"
                   alt="Asus"
@@ -80,7 +54,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/honor.png"
                   alt="Honor"
@@ -88,7 +62,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4">
                 <Image
                   src="/images/wiko.png"
                   alt="Wiko"
@@ -96,7 +70,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[5vw] mx-4">
+              <div className="relative w-[10vw] h-[10vw] mx-4 mr-10">
                 <Image
                   src="/images/sony.png"
                   alt="Sony"
@@ -104,6 +78,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
+              <div></div>
             </div>
           ))}
         </div>
@@ -113,3 +88,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// text-[#00296B]

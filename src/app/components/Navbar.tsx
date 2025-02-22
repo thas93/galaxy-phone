@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="p-4 border-b-2  text-black bg-white shadow-md relative">
+    <header className="p-4 border-b-2  text-white  shadow-md relative">
       <div className="mx-auto flex justify-between items-center w-full ">
         {/* Logo */}
         <Link
@@ -24,10 +24,13 @@ const Navbar = () => {
           className="text-2xl flex flex-col items-center font-bold font-fontrg"
         >
           <div className="flex">
-            <p className="text-5xl">G</p>
-            <p className="text-5xl">P</p>
+            <p className="text-5xl text-white">G</p>
+            <p className="text-5xl text-white">P</p>
           </div>
-          Galaxy Phone
+          <div className="flex">
+            <p className="text-[#FFD500]">Galaxy</p>
+            <p className="text-[#FFD500]">Phone</p>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -72,21 +75,21 @@ const Navbar = () => {
             <X size={30} color="white" />
           </button>
 
-          <div className="text-2xl text-white w-full flex border-3 p-4 border-white  shadow-lg rounded-full flex-col items-center font-bold font-fontrg">
+          <div className="text-2xl text-white w-full flex border-4 border-white shadow-lg rounded-full flex-col items-center font-bold font-fontrg">
             <div className="flex">
               <p className="text-5xl">G</p>
               <p className="text-5xl">P</p>
             </div>
-            <p className="text-lg">Galaxy Phone</p>
+            <p className="text-xl">Galaxy Phone</p>
           </div>
 
           {/* Navigation Links (Vertical Alignment) */}
-          <nav className="flex flex-col items-center gap-6 text-white">
+          <nav className="flex flex-col items-center gap-8 text-white">
             {links.map((link) => (
               <Link
                 key={link.name}
                 href={link.path}
-                className="text-3xl font-bold  hover:text-blue-500 transition-all"
+                className="text-3xl font-bold hover:text-blue-500 transition-all"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
