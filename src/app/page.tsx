@@ -8,81 +8,153 @@ const Home = () => {
         <p className="text-white">Protéger</p>
         <p className="text-[#FFD500]">Reconditionnés</p>
       </div>
+
       {/* Conteneur du carrousel */}
-      <div className="relative w-screen h-[10vw] bg-blue-200/20 overflow-hidden ">
-        <div className="flex w-[200%] animate-marque">
+      <div className="relative w-screen h-[6vh] flex bg-blue-200/50 overflow-hidden mb-10">
+        <div className="flex w-[200%] animate-marque justify-center items-center">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex gap-10">
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/samsung.png"
+                  src="/images/brand/samsung.png"
                   alt="Samsung"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/nokia.png"
-                  alt="Nokia"
+                  src="/images/brand/acer.png"
+                  alt="Acer"
                   fill
                   className="object-contain"
                 />
               </div>
-
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/huawei.png"
-                  alt="Huawei"
+                  src="/images/brand/apple.png"
+                  alt="Apple"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/redmi.png"
-                  alt="Redmi"
+                  src="/images/brand/alcatel.png"
+                  alt="Alcatel"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/asus.png"
+                  src="/images/brand/asus.png"
                   alt="Asus"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/honor.png"
-                  alt="Honor"
+                  src="/images/brand/dell.png"
+                  alt="Dell"
+                  fill
+                  className="object-contain"
+                />
+              </div> 
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/hp.png"
+                  alt="Hp"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/wiko.png"
-                  alt="Wiko"
+                  src="/images/brand/huawei.png"
+                  alt="Huawei"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-[10vw] h-[10vw] mx-4 mr-10">
+              <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
-                  src="/images/sony.png"
+                  src="/images/brand/lenovo.png"
+                  alt="Lenovo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/msi.png"
+                  alt="Msi"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/nokia.png"
+                  alt="Nokia"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/redmi.png"
+                  alt="Redmi"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/sony.png"
                   alt="Sony"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div></div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/toshiba.png"
+                  alt="Toshiba"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/wiko.png"
+                  alt="Wiko"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/windows.png"
+                  alt="Windows"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[5vh] mx-4">
+                <Image
+                  src="/images/brand/motorola.png"
+                  alt="Motorola"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
           ))}
         </div>
       </div>
+
     </div>
   );
 };
