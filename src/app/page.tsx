@@ -3,7 +3,8 @@ import Image from "next/image";
 const Home = () => {
   return (
     <div className="flex flex-col justify-between w-full h-full ">
-      <div className="flex flex-col justify-center md:items-start xl:flex-col items-center w-full font-extrabold text-zinc-700 text-5xl/30 md:text-5xl xl:text-7xl p-10  h-full">
+
+      <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 h-full md:items-start  md:text-7xl/30 xl:text-8xl/40">
         <p className="text-[#FFD500]">Réparer</p>
         <p className="text-white">Protéger</p>
         <p className="text-[#FFD500]">Reconditionnés</p>
@@ -150,6 +151,7 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
+              <div></div>
             </div>
           ))}
         </div>
