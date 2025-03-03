@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className="h-full w-full bg-white">
-      <body className="min-h-screen w-full flex flex-col bg-cover bg-center bg-[url('/images/bg-m.jpg')]">
+      <body className="min-h-screen w-full flex flex-col items-center">
         <Navbar />
         <main className="flex-1 flex items-center justify-center w-full">
           {children}
