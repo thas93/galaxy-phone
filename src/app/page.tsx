@@ -3,11 +3,23 @@ import Image from "next/image";
 const Home = () => {
   return (
     <div className="flex flex-col justify-between w-full h-full ">
-
-      <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 h-full md:items-start  md:text-7xl/30 xl:text-8xl/40">
-        <p className="text-[#FFD500]">Réparer</p>
-        <p className="text-white">Protéger</p>
-        <p className="text-[#FFD500]">Reconditionnés</p>
+      <div className="flex flex-col justify-between items-center ">
+        {/* Hero section */}
+        <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 h-full md:items-start  md:text-7xl/30 xl:text-8xl/40 ">
+          <p className="text-[#FFD500]">Réparer</p>
+          <p className="text-white">Protéger</p>
+          <p className="text-[#FFD500]">Reconditionnés</p>
+        </div>
+        {/* Image */}
+        <div className="p-4">
+          <Image
+            src="/images/groupes.png"
+            alt="Groupes"
+            width={1000}
+            height={1000}
+            className="object-contain"
+          />
+        </div>
       </div>
 
       {/* Conteneur du carrousel */}
@@ -62,7 +74,7 @@ const Home = () => {
                   fill
                   className="object-contain"
                 />
-              </div> 
+              </div>
               <div className="relative w-[10vw] h-[5vh] mx-4">
                 <Image
                   src="/images/brand/hp.png"
@@ -156,12 +168,10 @@ const Home = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };
 
 export default Home;
-
 
 // text-[#00296B]

@@ -4,10 +4,7 @@ import Image from "next/image";
 
 const Mobile = () => {
   return (
-   <div className="flex flex-col justify-center items-center w-screen min-h-screen bg-auto bg-fixed backdrop-blur-sm">
-
-
-
+    <div className="flex flex-col justify-center items-center w-screen min-h-screen bg-auto bg-fixed backdrop-blur-sm">
       <div className="flex justify-center items-center gap-10">
         <Image
           src="/images/parts/PHONE-REPARATION.png"
@@ -23,7 +20,7 @@ const Mobile = () => {
       </div>
 
       <div className="p-4 flex flex-col justify-center items-center gap-6 w-screen h-full">
-        <div className="flex flex-col justify-center items-center border-2 border-white rounded-lg ">
+        <div className="flex flex-col justify-center items-center border-2 border-white rounded-lg p-4">
           <h1 className="text-2xl font-black text-white tracking-[0.3rem]">
             ECRAN
           </h1>
@@ -55,9 +52,9 @@ const Mobile = () => {
           />
           <p className="text-white text-center text-2xl">
             {" "}
-            Un écran cassé ne devrait jamais compromettre votre expérience.
-            Faites confiance à notre expertise pour une réparation haut de
-            gamme, avec des composants de qualité et un service express
+            Ne laissez pas un appareil photo défectueux gâcher vos souvenirs !
+            Confiez-nous la réparation de votre caméra smartphone pour des
+            clichés nets et éclatants, comme au premier jour.
           </p>
         </div>
       </div>
