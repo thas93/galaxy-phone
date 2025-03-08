@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="p-4 border-b-2  text-white  shadow-md relative">
+    <header className="p-4 border-b-2  text-red-700 relative w-full">
       <div className="mx-auto flex justify-between items-center w-full ">
         {/* Logo */}
         <Link
@@ -24,8 +24,8 @@ const Navbar = () => {
           className="text-2xl flex flex-col items-center font-bold font-fontrg"
         >
           <div className="flex">
-            <p className="text-5xl text-white">G</p>
-            <p className="text-5xl text-white">P</p>
+            <p className="text-5xl text-red-700">G</p>
+            <p className="text-5xl text-red-700">P</p>
           </div>
           <div className="flex">
             <p className="text-[#FFD500]">Galaxy</p>

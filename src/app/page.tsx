@@ -3,11 +3,11 @@ import Image from "next/image";
 const Home = () => {
   return (
     <div className="flex flex-col justify-between w-full h-full ">
-      <div className="flex flex-col justify-between items-center ">
-        {/* Hero section */}
-        <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 h-full md:items-start  md:text-7xl/30 xl:text-8xl/40 ">
+      {/* Hero section */}
+      <div className="flex flex-col md:flex-row justify-between items-center bg-[#D9F2F4] rounded-xl  mx-5 my-5">
+        <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 md:items-start md:text-left md:text-7xl/30 xl:text-8xl/40 ">
           <p className="text-[#FFD500]">Réparer</p>
-          <p className="text-white">Protéger</p>
+          <p className="text-red-700">Protéger</p>
           <p className="text-[#FFD500]">Reconditionnés</p>
         </div>
         {/* Image */}
