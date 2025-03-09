@@ -25,7 +25,7 @@ const Home = () => {
       </div>
 
       {/* Conteneur du carrousel */}
-      <div className="relative w-screen h-[6vh] flex bg-blue-200/50 overflow-hidden mb-10">
+      <div className="relative w-screen h-[6vh] flex bg-[#D9F2F4]/30 overflow-hidden mb-10">
         <div className="flex w-[200%] animate-marque justify-center items-center">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex gap-10">
