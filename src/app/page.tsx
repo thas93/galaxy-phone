@@ -2,23 +2,25 @@
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className="flex flex-col justify-between w-full h-full ">
+    <div className="flex flex-col justify-between w-full h-full">
       {/* Hero section */}
-      <div className="flex flex-col md:flex-row justify-between items-center bg-[#D9F2F4] rounded-xl  mx-5 my-5">
-        <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 md:items-start md:text-left md:text-7xl/30 xl:text-8xl/40 ">
-          <p className="text-[#FFD500]">Réparer</p>
-          <p className="text-red-700">Protéger</p>
-          <p className="text-[#FFD500]">Reconditionnés</p>
-        </div>
-        {/* Image */}
-        <div className="p-4">
-          <Image
-            src="/images/groupes.png"
-            alt="Groupes"
-            width={1000}
-            height={1000}
-            className="object-contain"
-          />
+      <div className="p-2">
+        <div className="flex flex-col md:flex-row justify-between items-center bg-[#D9F2F4] rounded-xl  m-4">
+          <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 md:items-start md:text-left md:text-7xl/30 xl:text-8xl/40 ">
+            <p className="text-[#FFD500]">Réparer</p>
+            <p className="text-red-700">Protéger</p>
+            <p className="text-[#FFD500]">Reconditionnés</p>
+          </div>
+          {/* Image */}
+          <div className="p-4">
+            <Image
+              src="/images/groupes.png"
+              alt="Groupes"
+              width={1000}
+              height={1000}
+              className="object-contain"
+            />
+          </div>
         </div>
       </div>
 
