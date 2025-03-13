@@ -2,14 +2,15 @@
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className="flex flex-col justify-between w-full h-full">
+    <div className="flex flex-col justify-between  w-full h-full">
       {/* Hero section */}
       <div className="p-2">
-        <div className="flex flex-col md:flex-row justify-between items-center bg-[#D9F2F4] rounded-xl  m-4">
+        <div className="flex flex-col md:flex-col lg:flex-row justify-between items-center bg-[#E5E7EB] rounded-xl  m-4">
           <div className="flex flex-col justify-center items-center w-full font-extrabold text-5xl/30 p-10 md:items-start md:text-left md:text-7xl/30 xl:text-8xl/40 ">
-            <p className="text-[#FFD500]">Réparer</p>
-            <p className="text-red-700">Protéger</p>
-            <p className="text-[#FFD500]">Reconditionnés</p>
+            <p className="text-[#1E3A8A]">Réparer</p>
+            {/* <p className="animate-pulse bg-gradient-to-r from-yellow-500 via-green-500 to-red-500 bg-clip-text text-transparent">Réparer</p> */}
+            <p className="text-[#2563EB]">Protéger</p>
+            <p className="text-[#1E3A8A]">Reconditionnés</p>
           </div>
           {/* Image */}
           <div className="p-4">

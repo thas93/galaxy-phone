@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="p-4 border-b-2  text-red-700 relative w-full">
+    <header className="p-4 border-b-2  border-[#1E3A8A] text-orange-500 relative w-full">
       <div className="mx-auto flex justify-between items-center w-full ">
         {/* Logo */}
         <Link
@@ -24,12 +24,12 @@ const Navbar = () => {
           className="text-2xl flex flex-col items-center font-bold font-fontrg"
         >
           <div className="flex">
-            <p className="text-5xl text-red-700">G</p>
-            <p className="text-5xl text-red-700">P</p>
+            <p className="text-5xl text-orange-500">G</p>
+            <p className="text-5xl text-orange-500">P</p>
           </div>
           <div className="flex">
-            <p className="text-[#FFD500]">Galaxy</p>
-            <p className="text-[#FFD500]">Phone</p>
+            <p className="text-gray-800">Galaxy Phone</p>
+            {/* <p className="text-[#FFD500]">Phone</p> */}
           </div>
         </Link>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
             <X size={30} color="white" />
           </button>
 
-          <div className="text-2xl text-white w-full flex border-4 border-white shadow-lg rounded-full flex-col items-center font-bold font-fontrg">
+          <div className="text-2xl text-white w-full flex shadow-lg rounded-full flex-col items-center font-bold font-fontrg">
             <div className="flex">
               <p className="text-5xl">G</p>
               <p className="text-5xl">P</p>
