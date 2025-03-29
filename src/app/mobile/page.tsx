@@ -24,15 +24,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            Le remplacement d’un écran de téléphone est l’une des interventions
-            les plus fréquentes, représentant près de 80 % des réparations
-            effectuées. Même si l’écran paraît en bon état, des chocs
-            successifs, une exposition excessive à la chaleur ou l’infiltration
-            d’humidité peuvent altérer la réactivité tactile ou provoquer un
-            affichage totalement noir. Il est donc essentiel d’agir rapidement
-            pour éviter une aggravation du problème et garantir le bon
-            fonctionnement de l’appareil.{" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -48,19 +47,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            Le remplacement de l'appareil photo d'un téléphone est une
-            réparation de plus en plus courante, notamment avec l'utilisation
-            intensive des fonctionnalités photographiques. Même si l'objectif
-            semble intact, des chocs, une exposition à l'humidité ou une
-            accumulation de poussière peuvent endommager les capteurs ou les
-            lentilles, entraînant des photos floues, des taches sur les images
-            ou un dysfonctionnement complet de la fonction photo. Ces problèmes
-            peuvent considérablement réduire la qualité des clichés et nuire à
-            l'expérience utilisateur. Il est donc important de diagnostiquer et
-            de remplacer l'appareil photo rapidement pour retrouver des
-            performances optimales et préserver la capacité à capturer des
-            moments précieux.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -76,15 +70,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            la batterie représentant une part importante des demandes en
-            atelier. Même si le téléphone semble fonctionner normalement, une
-            dégradation progressive de la batterie, due à des cycles de charge
-            répétés, une surchauffe ou une utilisation intensive, peut entraîner
-            une autonomie réduite, des redémarrages intempestifs ou même un
-            dysfonctionnement complet de l'appareil. Il est donc essentiel de
-            surveiller l'état de la batterie et de la remplacer à temps pour
-            éviter ces désagréments.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -100,26 +93,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            la batterie représentant une part importante des demandes en
-            atelier. Même si le téléphone semble fonctionner normalement, une
-            dégradation progressive de la batterie, due à des cycles de charge
-            répétés, une surchauffe ou une utilisation intensive, peut entraîner
-            une autonomie réduite, des redémarrages intempestifs ou même un
-            dysfonctionnement complet de l'appareil. Il est donc essentiel de
-            surveiller l'état de la batterie et de la remplacer à temps pour
-            éviter ces désagréments.ent de l'appareil photo d'un téléphone est
-            une réparation de plus en plus courante, notamment avec
-            l'utilisation intensive des fonctionnalités photographiques. Même si
-            l'objectif semble intact, des chocs, une exposition à l'humidité ou
-            une accumulation de poussière peuvent endommager les capteurs ou les
-            lentilles, entraînant des photos floues, des taches sur les images
-            ou un dysfonctionnement complet de la fonction photo. Ces problèmes
-            peuvent considérablement réduire la qualité des clichés et nuire à
-            l'expérience utilisateur. Il est donc important de diagnostiquer et
-            de remplacer l'appareil photo rapidement pour retrouver des
-            performances optimales et préserver la capacité à capturer des
-            moments précieux.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -135,26 +116,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            la batterie représentant une part importante des demandes en
-            atelier. Même si le téléphone semble fonctionner normalement, une
-            dégradation progressive de la batterie, due à des cycles de charge
-            répétés, une surchauffe ou une utilisation intensive, peut entraîner
-            une autonomie réduite, des redémarrages intempestifs ou même un
-            dysfonctionnement complet de l'appareil. Il est donc essentiel de
-            surveiller l'état de la batterie et de la remplacer à temps pour
-            éviter ces désagréments.ent de l'appareil photo d'un téléphone est
-            une réparation de plus en plus courante, notamment avec
-            l'utilisation intensive des fonctionnalités photographiques. Même si
-            l'objectif semble intact, des chocs, une exposition à l'humidité ou
-            une accumulation de poussière peuvent endommager les capteurs ou les
-            lentilles, entraînant des photos floues, des taches sur les images
-            ou un dysfonctionnement complet de la fonction photo. Ces problèmes
-            peuvent considérablement réduire la qualité des clichés et nuire à
-            l'expérience utilisateur. Il est donc important de diagnostiquer et
-            de remplacer l'appareil photo rapidement pour retrouver des
-            performances optimales et préserver la capacité à capturer des
-            moments précieux.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -170,26 +139,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            la batterie représentant une part importante des demandes en
-            atelier. Même si le téléphone semble fonctionner normalement, une
-            dégradation progressive de la batterie, due à des cycles de charge
-            répétés, une surchauffe ou une utilisation intensive, peut entraîner
-            une autonomie réduite, des redémarrages intempestifs ou même un
-            dysfonctionnement complet de l'appareil. Il est donc essentiel de
-            surveiller l'état de la batterie et de la remplacer à temps pour
-            éviter ces désagréments.ent de l'appareil photo d'un téléphone est
-            une réparation de plus en plus courante, notamment avec
-            l'utilisation intensive des fonctionnalités photographiques. Même si
-            l'objectif semble intact, des chocs, une exposition à l'humidité ou
-            une accumulation de poussière peuvent endommager les capteurs ou les
-            lentilles, entraînant des photos floues, des taches sur les images
-            ou un dysfonctionnement complet de la fonction photo. Ces problèmes
-            peuvent considérablement réduire la qualité des clichés et nuire à
-            l'expérience utilisateur. Il est donc important de diagnostiquer et
-            de remplacer l'appareil photo rapidement pour retrouver des
-            performances optimales et préserver la capacité à capturer des
-            moments précieux.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
 
@@ -205,26 +162,14 @@ const Mobile = () => {
             className="  md:block"
           />
           <p className="text-[#1E3A8A] text-center text-2xl">
-            {" "}
-            la batterie représentant une part importante des demandes en
-            atelier. Même si le téléphone semble fonctionner normalement, une
-            dégradation progressive de la batterie, due à des cycles de charge
-            répétés, une surchauffe ou une utilisation intensive, peut entraîner
-            une autonomie réduite, des redémarrages intempestifs ou même un
-            dysfonctionnement complet de l'appareil. Il est donc essentiel de
-            surveiller l'état de la batterie et de la remplacer à temps pour
-            éviter ces désagréments.ent de l'appareil photo d'un téléphone est
-            une réparation de plus en plus courante, notamment avec
-            l'utilisation intensive des fonctionnalités photographiques. Même si
-            l'objectif semble intact, des chocs, une exposition à l'humidité ou
-            une accumulation de poussière peuvent endommager les capteurs ou les
-            lentilles, entraînant des photos floues, des taches sur les images
-            ou un dysfonctionnement complet de la fonction photo. Ces problèmes
-            peuvent considérablement réduire la qualité des clichés et nuire à
-            l'expérience utilisateur. Il est donc important de diagnostiquer et
-            de remplacer l'appareil photo rapidement pour retrouver des
-            performances optimales et préserver la capacité à capturer des
-            moments précieux.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            illo labore excepturi officiis maxime ullam architecto non, harum
+            exercitationem expedita omnis facilis eius rem vitae illum ducimus
+            nemo esse. Doloremque labore obcaecati sapiente deserunt pariatur
+            neque maiores fugit perferendis modi quaerat! Ipsa cupiditate
+            consequatur laboriosam voluptatibus possimus unde, illo enim
+            voluptate! Inventore delectus assumenda, esse possimus fugit officia
+            temporibus neque!
           </p>
         </div>
       </div>
