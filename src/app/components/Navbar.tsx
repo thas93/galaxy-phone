@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="p-4 border-b-2  border-[#1E3A8A] text-orange-500 relative w-full">
+    <header className="p-4 relative w-full">
       <div className="mx-auto flex justify-between items-center w-full ">
         {/* Logo */}
         <Link
@@ -24,12 +24,8 @@ const Navbar = () => {
           className="text-2xl flex flex-col items-center font-bold font-fontrg"
         >
           <div className="flex">
-            <p className="text-5xl text-orange-500">G</p>
-            <p className="text-5xl text-orange-500">P</p>
-          </div>
-          <div className="flex">
-            <p className="text-gray-800">Galaxy Phone</p>
-            {/* <p className="text-[#FFD500]">Phone</p> */}
+            <p className="text-5xl text-[#4F7CAC]">G</p>
+            <p className="text-5xl text-[#4F7CAC]">P</p>
           </div>
         </Link>
 
@@ -39,7 +35,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               href={link.path}
-              className="capitalize font-bold text-xl hover:text-blue-500 transition-all"
+              className="capitalize font-extrabold text-amber-200 text-lg hover:text-blue-500 transition-all"
             >
               {link.name}
             </Link>

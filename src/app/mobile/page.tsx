@@ -69,7 +69,7 @@ const Mobile = () => {
           </h1>
           <div className="flex gap-10 rounded-lg justify-center items-center">
             <Image
-              src="/images/parts/batery.png"
+              src="/images/parts/battery.webp"
               alt="battery"
               width={150}
               height={150}
