@@ -69,7 +69,7 @@ const Home = () => {
 
           <div>
             <p className="font-extrabold text-3xl">
-              "Et si réparer devenait un réflexe ?"
+              Et si réparer devenait un réflexe ?
             </p>
             <p className="font-semibold italic text-lg">
               Plutôt que de jeter, prolongez la vie de vos téléphones et
