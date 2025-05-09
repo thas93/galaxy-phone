@@ -74,7 +74,7 @@ const Home = () => {
             <p className="font-semibold italic text-lg">
               Plutôt que de jeter, prolongez la vie de vos téléphones et
               ordinateurs. Chaque réparation, c’est un déchet en moins et un pas
-              de plus vers un avenir durable."
+              de plus vers un avenir durable.
             </p>
           </div>
 
