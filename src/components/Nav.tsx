@@ -27,7 +27,7 @@ const Nav: React.FC<NavProps> = ({ isMobile = false, closeMenu }) => {
           onClick={closeMenu} // ✅ Ferme le menu en mobile
           className={`${
             link.path === pathname ? "text-hoverAnime border-b-2 border-hoverAnime" : ""
-          } capitalize font-bold text-xl hover:text-hoverAnime transition-all`}
+          } capitalize font-bold text-xl text-[#4F7CAC] hover:text-hoverAnime transition-all`}
         >
           {link.name}
         </Link>

@@ -56,14 +56,50 @@ const Home = () => {
         </div>
 
         <div className="w-full h-full flex flex-col justify-between">
-          <div className="flex flex-col items-center w-full">
-            <p className="text-6xl font-bold font-fontrg text-[#4F7CAC]">GALAXY PHONE</p>
+          <div className="flex flex-col gap-4 items-center w-full">
+            <p className="text-6xl font-bold font-fontrg text-[#4F7CAC]">
+              GALAXY PHONE
+            </p>
             <div className="flex gap-6">
               <p className="font-extrabold text-2xl">REPARER</p>
               <p className="font-extrabold text-2xl">-</p>
               <p className="font-extrabold text-2xl">PROTEGER</p>
               <p className="font-extrabold text-2xl">-</p>
               <p className="font-extrabold text-2xl">RECONDITIONNEES</p>
+            </div>
+            <div className="flex">
+              <div className="relative w-[10vw] h-[10vh]">
+                <Image
+                  src="/images/L1.png"
+                  alt="Magasin"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[10vh]">
+                <Image
+                  src="/images/L2.png"
+                  alt="Magasin"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[10vh]">
+                <Image
+                  src="/images/L3.png"
+                  alt="Magasin"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative w-[10vw] h-[10vh]">
+                <Image
+                  src="/images/L4.png"
+                  alt="Magasin"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
 
@@ -118,7 +154,9 @@ const Home = () => {
                   className="object-contain"
                 />
               </div>
-              <p className="font-bold italic text-xl">galaxyphone92270@gmail.com</p>
+              <p className="font-bold italic text-xl">
+                galaxyphone92270@gmail.com
+              </p>
             </div>
           </div>
         </div>

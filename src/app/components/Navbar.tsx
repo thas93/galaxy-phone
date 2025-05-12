@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               href={link.path}
-              className="capitalize font-extrabold text-amber-200 text-lg hover:text-blue-500 transition-all"
+              className="capitalize font-extrabold text-[#4F7CAC] text-lg hover:text-blue-500 transition-all"
             >
               {link.name}
             </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.path}
-                className="text-3xl font-bold hover:text-blue-500 transition-all"
+                className="text-3xl font-bold  hover:text-blue-500 transition-all"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
