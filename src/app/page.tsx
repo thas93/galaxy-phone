@@ -114,49 +114,60 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-6">
-            {/* Adresse */}
-            <div className="flex items-center gap-3">
-              <div className="relative w-[5vw] h-[5vh]">
-                <Image
-                  src="/images/magasin.png"
-                  alt="Magasin"
-                  fill
-                  className="object-contain"
-                />
+          <div className="flex justify-center items-center">
+            <div className="flex flex-col gap-6">
+              {/* Adresse */}
+              <div className="flex items-center gap-3">
+                <div className="relative w-[5vw] h-[5vh]">
+                  <Image
+                    src="/images/magasin.png"
+                    alt="Magasin"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="font-bold text-xl">14 RUE RASPAIL</p>
+                  <p className="font-bold text-xl">92270 BOIS-COLOMBES</p>
+                </div>
               </div>
-              <div>
-                <p className="font-bold text-xl">14 RUE RASPAIL</p>
-                <p className="font-bold text-xl">92270 BOIS-COLOMBES</p>
+
+              {/* Téléphone */}
+              <div className="flex items-center gap-3">
+                <div className="relative w-[5vw] h-[5vh]">
+                  <Image
+                    src="/images/fixe.png"
+                    alt="Fixe"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <p className="font-bold text-xl">09.54.07.54.42</p>
+              </div>
+
+              {/* E-mail */}
+              <div className="flex items-center gap-3">
+                <div className="relative w-[5vw] h-[5vh]">
+                  <Image
+                    src="/images/email.png"
+                    alt="Email"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <p className="font-bold italic text-xl">
+                  galaxyphone92270@gmail.com
+                </p>
               </div>
             </div>
 
-            {/* Téléphone */}
-            <div className="flex items-center gap-3">
-              <div className="relative w-[5vw] h-[5vh]">
-                <Image
-                  src="/images/fixe.png"
-                  alt="Fixe"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <p className="font-bold text-xl">09.54.07.54.42</p>
-            </div>
-
-            {/* E-mail */}
-            <div className="flex items-center gap-3">
-              <div className="relative w-[5vw] h-[5vh]">
-                <Image
-                  src="/images/email.png"
-                  alt="Email"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <p className="font-bold italic text-xl">
-                galaxyphone92270@gmail.com
-              </p>
+            <div className="relative w-[30vw] h-[30vh]">
+              <Image
+                src="/images/img.png"
+                alt="Email"
+                fill
+                className="object-contain"
+              />
             </div>
           </div>
         </div>
