@@ -11,8 +11,8 @@ interface NavProps {
 const links = [
   { name: "home", path: "/home" },
   { name: "mobile", path: "/mobile" },
-  { name: "tablette", path: "/tablette" },
-  { name: "ordinateur", path: "/ordinateur" },
+  // { name: "tablette", path: "/tablette" },
+  // { name: "ordinateur", path: "/ordinateur" },
 ];
 
 const Nav: React.FC<NavProps> = ({ isMobile = false, closeMenu }) => {
