@@ -310,7 +310,7 @@ export default function Page() {
               className="relative w-full max-w-[300px] h-[200px] md:w-[30vw] md:h-[30vh]"
             >
               <Image
-                src="/images/img.png"
+                src="/images/home/img.webp"
                 alt="Illustration"
                 fill
                 className="object-contain"
