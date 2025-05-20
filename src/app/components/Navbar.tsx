@@ -56,11 +56,12 @@ const Navbar = () => {
 
       {/* Mobile Fullscreen Menu */}
       {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, x: "100%" }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: "100%" }}
-          className="fixed top-0 left-0 w-screen p-2 h-screen bg-[url('/images/bg-mobile.jpg')] bg-cover bg-center flex flex-col items-center justify-around z-40"
+  <motion.div
+    initial={{ opacity: 0, x: "100%" }}
+    animate={{ opacity: 1, x: 0 }}
+    exit={{ opacity: 0, x: "100%" }}
+    className="fixed top-0 left-0 w-screen p-2 h-screen bg-cover bg-center flex flex-col items-center justify-around z-40"
+    style={{ backgroundImage: "url('/images/bg-mobile.webp')" }}
         >
           {/* Close Button Inside the Menu */}
           <button
